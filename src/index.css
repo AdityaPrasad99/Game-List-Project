@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+#root,
+.App,
+.layout {
+  @apply w-full h-full;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.layout {
+  @apply bg-[#1c2232] flex flex-col;
+}
+.logo {
+  @apply text-lg  italic font-bold mr-6;
+}
+.menu {
+  @apply flex gap-6 grow;
+}
+
+.appbar {
+  @apply p-6 flex text-white  w-full;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.appbar-container {
+  @apply container flex m-auto items-center font-semibold;
+}
+
+.search-bar {
+  @apply bg-[#363f50] rounded-full px-2 py-1 mr-6 !text-slate-100;
+}
+
+input {
+  color: white;
+}
+
+.page-title {
+  @apply p-4 pl-0 text-left px-6 text-[#6782ae] font-semibold my-4 m-auto;
+}
+
+.container {
+  @apply m-auto;
+}
