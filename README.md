@@ -2,6 +2,10 @@
 
 This is a React project that displays a list of games and their brief information using Material-UI, Tailwind, and axios.
 
+## Demo
+
+A live demo of the project is available [here](https://ad-games.netlify.app/).
+
 ## Getting Started
 
 To get started with the project, follow these steps:
